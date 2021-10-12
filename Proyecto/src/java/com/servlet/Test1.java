@@ -40,7 +40,7 @@ public class Test1 extends HttpServlet {
             out.println("<title>Servlet Test1</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Test1 at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Test1 at " + "Hola Mundoooo" + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
